@@ -1,0 +1,43 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.float-right {
+    float: right;
+}
+
+.center-image {
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#searchbar input {
+    border: 1px solid #000;
+    width: 483px;
+    height: 33px;
+}
+
+#searchbar {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 584px;
+    height: 44px;
+    margin: 0 auto;
+}

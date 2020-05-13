@@ -20,12 +20,29 @@ header button {
     background-color: #4285f4;
     border: 1px solid #4285f4;
     border-radius: 2px;
+    height: 30px;
+    width: 69px;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
 }
 
 footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    background: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #5f6368;
+    padding-left: 23px;
 }
 
 .centered {
